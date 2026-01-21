@@ -1,0 +1,102 @@
+nav{
+        background-color:grey;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:20px 10px;
+        }
+       nav ul{
+        display:flex;
+        list-style-type:none;
+        }
+
+        nav ul li{
+        margin:0 20px;
+        }
+        nav ul li a{
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+        font-size:20px;
+        }
+        nav ul li a:hover{
+        background-color:pink;
+        color:white;;
+        display:block;
+        margin:60px auto;
+        padding:10px 20px;
+        border-radius:5px
+        }
+        <!--         HERO SECTION-->
+         .hero-image{
+         background-image: url("https://media.istockphoto.com/id/1312706504/photo/modern-hospital-building.jpg")
+         background-size:cover;
+         background-position:center;
+         }
+         .hero-text{
+         color:orange;
+         text-align:center;
+         font-size:40px;
+         text-decoration:underlined;
+         font-weight:bold;
+         position:relative;
+         top:50%;
+         transform:translateY(60%);
+         }
+        body{
+        background-color:green;
+        font-family:Arial,sans-serif;
+        margin:0;
+        padding:0;
+        color:red;
+        }
+iframe{
+width:100%;
+border-radius:80px;
+align-content:center;
+}
+         iframe:hover{
+         padding:20px;
+         border-radius:30px;
+         }
+         .youtube{
+         border-radius:30px;
+         background-color:red;
+         width:80%;
+         height:26px;
+         padding:35px;
+         align-content:center;
+         }
+         ul{
+         font-weght:bold;
+         color:yellow;
+         background-color:maroon;
+         padding:30px;
+         border-radius:50px;
+         text-align:center;
+         }
+         about-us h1,h2{
+         color:white;
+         text-align:center;
+         font-weight:bold;
+         border-bottom:2px solid white;
+         }
+         p{
+ border-radius: 20px;
+         color: orange;
+         padding: 30px;
+        }
+      main{
+         background-color: brown;
+         color: white;
+         padding: 30px;
+         border-radius: 10px;
+         margin: 20px auto;
+         max-width:1000px;
+        }
+        section{
+        background-color:red;
+        padding:30px;
+        margin-bottom:10px;
+        border-radius:20px;
+        }
